@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Aleena's Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Aleena Treesa <span>Leejoy</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="me2.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Aleena</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> i do.. uh.. coding??</p>
+                <div class="social-links">
+                    <a href="https://github.com/Nothing-atl" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/aleena__treez__lee" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aleena-leejoy-4a9234342/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/your-profile" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As a passionate Computer Science student at Simon Fraser University, I thrive on solving challenging problems and turning innovative ideas into reality. With hands-on experience in software development, machine learning, and data analysis, I’ve tackled projects ranging from developing games and web applications to analyzing complex datasets. <br><br>
+
+                Highlights of my work include:<br>
+                
+                 Building a 2D arcade-style Dungeon Chef game in Java, blending creativity and technical skills.
+                 Designing and validating an image classification model using Python and TensorFlow to achieve high accuracy.
+                 Conducting data-driven laptop sales analysis and forecasting using machine learning techniques, uncovering actionable trends.<br><br>
+                
+                Beyond my technical expertise, I enjoy collaborating with diverse teams and learning new tools to expand my skill set. I am proficient in Python, Java, SQL, and web development (HTML/CSS, JavaScript) and comfortable navigating Linux/UNIX environments.<br><br>
+                
+                I’m currently seeking opportunities to apply my knowledge and grow as a developer, especially in fields like AI, software engineering, or data science. Let’s connect and discuss how we can create impactful solutions together!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>App Development</li>
+                <li>Node.js </li>
+                <li>Python </li>
+                <li>Machine Learning</li>
+                <li>AI</li>
+                <li>Git & Version Control</li>
+                <li>Training</li>
+                <li>Convolution Neural Network(CNN)</li>
+                <li>Testing</li>
+                <li>Software Development</li>
+                <li>java</li>
+                <li>C</li>
+                <li>SQL</li>
+                <li>Computer Graphics</li>
+                <li>Data Analysis</li>
+                <li>TensorFlow</li>
+                <li>Numpy</li>
+                <li>MATLAB</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            
+            <div class="project" data-project-id="1">
+                <h3>Dungeon-Chef </h3>
+                <p>A 2D arcade-style game where you collect ingredients while avoiding enemies to create magical recipes. Navigate through three unique boards - Fire, Ice and Earth - each with their own challenges and ingredients. <a href="https://github.com/Nothing-atl/Dungeon-Chef">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="2">
+                <h3>Tree</h3>
+                <p>I created this website as a fun project. It features the current moon phase and NASA'sAstronomy Picture of the Day. The site includes engaging sections such as "Stars,""Coffee," and "Zodiac," where you can explore interesting facts about each topic.Additionally, it offers a language converter tool that supports translations between 48 different languages. I used HTML, CSS and javascript to create this website. <a href="https://nothing-atl.github.io/tree/">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="3">
+                <h3>Image Recognition</h3>
+                <p>I worked on image classification in Python using Convolutional Neural Networks (CNNs)with TensorFlow. I trained and validated the model to improve its performance, and in the end, it was able to classify complex images with great accuracy. <a href="https://github.com/Nothing-atl/image-recognition">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="4">
+                <h3>Laptop Sales Analysis and Forecasting</h3>
+                <p> analyzed Best Buy's 2024 laptop sales data to uncover trends and forecast future sales using tools like Python and machine learning models, including Linear Regression. My work focused on identifying the best- and worst-selling brands, understanding how pricing affects sales, and exploring consumer preferences. I found that mid-priced laptops were the most popular, while HP stood out for offering diverse and competitively priced models. These insights provided actionable recommendations to help retailers and manufacturers align their strategies with what customers are looking for, making them more competitive in the market. <a href="https://github.com/Nothing-atl/Laptop-Sales-Analysis-and-Forecasting">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="5">
+                <h3>object-detection </h3>
+                <p>This project uses the powerful YOLOv8 framework for detecting objects in images and vedios with high accuracy and efficiency. <a href="https://github.com/Nothing-atl/object-detection">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="6">
+                <h3>Story-website </h3>
+                <p> This is a website i made for publishing my stories..</p> <a href="https://nothing-atl.github.io/Story-website/">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="7">
+                <h3>Alarm App (iOS)</h3>
+                <p>A fully customizable alarm app built with SwiftUI. It supports scheduling alarms, custom sounds, dark mode, repeat settings, and real-time alarm management. <a href="https://github.com/Nothing-atl/alarm-app">View Project</a></p>
+            </div>
+            <div class="project" data-project-id="8">
+                <h3>Fifteenpuzzle </h3>
+                <p>This project aims to develop a solver for the NxN puzzle using a variety of algorithms, heuristics, and techniques. The solver will be programmed in Java and optimized for solving the puzzle in the least possible moves. The project involves testing the solver on various NxN puzzle configurations, ranging from 3x3 to 9x9. During the process I have tried many algorithms and heuristics to develop this solver. The project will contribute to the development of more efficient and effective solvers for the NxN puzzle, which has implications for various industries, including gaming, logistics, and transportation. <a href="https://github.com/Nothing-atl/fifteenpuzzle">View Project</a></p>
+            </div>
+            
+
+
+            <!-- Add more projects here -->
+        </div>
+    </section>
+   <!-- Modal Structure -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <a id="modalLink" href="#" target="_blank">View Project</a> 
+    </div>
+</div>
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Coming soon...</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aleena Treesa Leejoy</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
