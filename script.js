@@ -74,41 +74,41 @@ projects.forEach(project => {
             link = 'https://github.com/Nothing-atl/Dungeon-Chef'; // Add your project link here
         } else if (projectId === '2') {
             title = 'Tree';
-            description = 'I created this website as a fun project. It features the current moon phase and NASA s Astronomy Picture of the Day. The site includes engaging sections such as "Stars,""Coffee," and "Zodiac," where you can explore interesting facts about each topic.Additionally, it offers a language converter tool that supports translations between 48 different languages. I used HTML, CSS and javascript to create this website.';
+            description = 'I created this website as a fun project. It features the current moon phase and NASA"s Astronomy Picture of the Day. The site includes engaging sections such as "Stars,""Coffee," and "Zodiac," where you can explore interesting facts about each topic.Additionally, it offers a language converter tool that supports translations between 48 different languages. I used HTML, CSS and javascript to create this website.';
             link = 'https://nothing-atl.github.io/tree/'; // Add your project link here
         } else if (projectId === '3') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
-            link = 'https://your-link-to-project3.com'; // Add your project link here
+            title = 'Image Recognition';
+            description = 'I worked on image classification in Python using Convolutional Neural Networks (CNNs)with TensorFlow. I trained and validated the model to improve its performance, and in the end, it was able to classify complex images with great accuracy.';
+            link = 'https://github.com/Nothing-atl/image-recognition'; // Add your project link here
         }
         else if (projectId === '4') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
-            link = 'https://your-link-to-project3.com'; // Add your project link here
+            title = 'Laptop Sales Analysis and Forecasting';
+            description = 'I analyzed Best Buy"s 2024 laptop sales data to uncover trends and forecast future sales using tools like Python and machine learning models, including Linear Regression. My work focused on identifying the best- and worst-selling brands, understanding how pricing affects sales, and exploring consumer preferences. I found that mid-priced laptops were the most popular, while HP stood out for offering diverse and competitively priced models. These insights provided actionable recommendations to help retailers and manufacturers align their strategies with what customers are looking for, making them more competitive in the market.';
+            link = 'https://github.com/Nothing-atl/Laptop-Sales-Analysis-and-Forecasting'; // Add your project link here
         }
 
         else if (projectId === '5') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
+            title = 'object-detection ';
+            description = 'This project uses the powerful YOLOv8 framework for detecting objects in images and vedios with high accuracy and efficiency.';
             link = 'https://your-link-to-project3.com'; // Add your project link here
         }
 
         else if (projectId === '6') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
-            link = 'https://your-link-to-project3.com'; // Add your project link here
+            title = 'Story-website ';
+            description = 'This is a website i made for publishing my stories..';
+            link = 'https://nothing-atl.github.io/Story-website/'; // Add your project link here
         }
 
         else if (projectId === '7') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
-            link = 'https://your-link-to-project3.com'; // Add your project link here
+            title = 'Alarm App (iOS)';
+            description = 'A fully customizable alarm app built with SwiftUI. It supports scheduling alarms, custom sounds, dark mode, repeat settings, and real-time alarm management.';
+            link = 'https://github.com/Nothing-atl/alarm-app'; // Add your project link here
         }
 
         else if (projectId === '8') {
-            title = 'Project 3: Another Awesome App';
-            description = 'A new app designed to improve workflow in Z. It helps users manage their tasks efficiently, integrating with various tools to provide seamless performance.';
-            link = 'https://your-link-to-project3.com'; // Add your project link here
+            title = 'Fifteenpuzzle ';
+            description = 'This project aims to develop a solver for the NxN puzzle using a variety of algorithms, heuristics, and techniques. The solver will be programmed in Java and optimized for solving the puzzle in the least possible moves. The project involves testing the solver on various NxN puzzle configurations, ranging from 3x3 to 9x9. During the process I have tried many algorithms and heuristics to develop this solver. The project will contribute to the development of more efficient and effective solvers for the NxN puzzle, which has implications for various industries, including gaming, logistics, and transportation.';
+            link = 'https://github.com/Nothing-atl/fifteenpuzzle'; // Add your project link here
         }
 
 

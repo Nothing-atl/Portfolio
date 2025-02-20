@@ -232,25 +232,32 @@ section{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    transition: 0.2s linear;
 }
 #skills ul li {
     font-size: 1.2rem;
     padding: 10px 20px;
     background-color: #0ad454;
     border-radius: 20px;
-    transition: background-color 0.3s ease-in-out;
+    transition: 0.2s linear;
 }
 #skills ul li:hover {
-    background-color: #0c6237;
+    scale: 1.1;
+    color: #077b32;
+    border: 2px solid #077b32;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px #077b32;
 }
 
 /* Projects Section Styles */
 /* Projects Section Styles */
 #projects {
-    background-color: #282828;
+    background-color: #000000;
     height: max-content;
     margin-bottom: 90px;
     padding-top: 20px; /* Added padding-top to create space between the heading and projects */
+    
 }
 #projects h2 {
     text-align: center;
@@ -266,14 +273,15 @@ section{
     gap: 20px; /* Space between the boxes */
     width: 80%;
     margin: 0 auto;
+    
 }
 
 /* Individual Project Box */
 .project {
-    background-color: #333333;
+    background-color: #0ad454;
     padding: 20px;
     border-radius: 10px;
-    transition: background-color 0.3s ease-in-out;
+    transition: 0.2s linear;
     cursor: pointer; /* Indicates clickable item */
 }
 
@@ -288,35 +296,24 @@ section{
     max-height: 100px; /* Limit the height of the text */
     overflow: hidden;
     text-overflow: ellipsis; /* Show "..." when content overflows */
+    
 }
 
-/* Show More Link */
-.project .show-more {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    font-size: 1rem;
-    color: #077b32;
-    cursor: pointer;
-    text-decoration: underline;
-    display: none; /* Hidden by default */
-}
-
-/* Hover effect for Show More */
-.project:hover .show-more {
-    display: block; /* Show "Show More" when hovered */
-}
 
 .project a {
     color: #077b32;
     font-weight: bold;
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    
 }
 
-.project a:hover {
-   background-color: #444444;
+#projects .container :hover {
+    scale: 1.0;
+    background-color: #077b32;
+    box-shadow: 0 0 40px #077b32;
+   
 }
+
 
 /* Modal Styles */
 .modal {
@@ -360,7 +357,9 @@ section{
     font-size: 1.2rem;
     line-height: 1.6;
 }
-
+#modalLink{
+    color: #00cc66;
+}
 /* Blog Section Styles */
 #blog {
     background-color: #333333;
@@ -375,6 +374,13 @@ section{
     max-width: 800px;
     margin: 0 auto;
     font-style: italic;
+}
+.footer{
+    color: aliceblue;
+    text-align: center;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width:884px) {
@@ -436,6 +442,22 @@ section{
     .project p {
         font-size: 1rem;
     }
+    .modal-content {
+        width: 90%; /* Reduce the width of the modal */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    #modalTitle {
+        font-size: 1.8rem; /* Slightly smaller title */
+    }
+
+    #modalDesc {
+        font-size: 1.1rem; /* Slightly smaller description text */
+    }
+
+    .close-btn {
+        font-size: 1.5rem; /* Smaller close button */
+    }
     #blog h2 {
         font-size: 2rem;
     }
@@ -482,6 +504,22 @@ section{
     }
     .project p {
         font-size: 0.9rem;
+    }
+    .modal-content {
+        width: 95%; /* Further reduce the width for very small screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    #modalTitle {
+        font-size: 1.5rem; /* Make the title smaller */
+    }
+
+    #modalDesc {
+        font-size: 1rem; /* Make the description text smaller */
+    }
+
+    .close-btn {
+        font-size: 1.2rem; /* Smaller close button */
     }
     #blog h2 {
         font-size: 1.8rem;
